@@ -5,7 +5,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = "postgresql://admin:admin@localhost:8080/"
+  url      = "postgresql://admin:admin@localhost:5432/"
 }
 
 model Todo{
